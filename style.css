@@ -1,0 +1,112 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+#top-pg{
+    background-image: url('images/a8b9f18ba98458b4157e1611e0593eb0-Petronas Twin Towers Malaysia banner 1.jpeg');
+    background-size: cover;
+    height: 720px;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+}
+#kl{
+    font-size: 34.4px;
+    background-color: #006494;
+    padding: 8px 16px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+#kl-details{
+    margin-top: 10px;
+    font-size: 22px;
+    background-color: #0582ca;
+    padding: 8px 16px;
+    width: 650px;
+    border-radius: 10px;
+    font-weight: 650;
+}
+#mid-pg{
+    color: #1D3557;
+    padding: 60px;
+    text-align: center;
+    background-color: #e3ffd9;
+    margin: 0;
+}
+.twin{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    transition: transform 0.5s ease;
+}
+.twin:hover{
+    transform: scale(1.2);
+}
+.details{
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+}
+.todo{
+    width: 420px;
+}
+#content{
+    display: flex;
+    justify-content: space-around;
+}
+.places{
+    font-weight: 550;
+    font-size: 22px;
+}
+.space{
+    letter-spacing: 1px;
+    margin: 0;
+    margin-bottom: 60px;
+}
+.kl-hover{
+    text-decoration: none;
+    color: inherit;
+}
+.kl-hover:hover{
+    text-decoration: underline;
+}
+.end{
+    background-color: rgb(220, 239, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile{
+    width: 630px;
+    text-align: center;
+    margin: 80px;
+    display: flex;
+    background-color: #A8DADC;
+    padding: 48px 24px;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 0px 10px 0px #1D3557;
+}
+#me{
+    width: 240px;
+    transition: transform 0.4s ease;
+    border-radius: 50%;
+}
+#me:hover{
+    transform: scale(1.1);
+}
+.details-myself{
+    margin: 20px;
+    width: 320px;
+    padding: 0;
+}
+#quote{
+    font-size: 22px;
+    font-family: 'Poppins', sans-serif;
+}
+#ok{
+    margin: 0;
+}
